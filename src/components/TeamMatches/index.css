@@ -1,0 +1,14 @@
+/* Write your CSS here */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.teamMatch-bg {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  background-size: cover;
+  padding: 25px;
+  color: #ffffff;
+}
+h1{
+  font-size:30px;
+}

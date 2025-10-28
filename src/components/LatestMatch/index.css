@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.latestmatch-bg {
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p{
+  font-size:20px;
+}
