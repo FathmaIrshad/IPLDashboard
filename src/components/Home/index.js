@@ -11,6 +11,7 @@ class Home extends Component {
   componentDidMount() {
     this.getTeamList()
   }
+
   getTeamList = async () => {
     const response = await fetch('https://apis.ccbp.in/ipl')
     const data = await response.json()
@@ -24,12 +25,13 @@ class Home extends Component {
     console.log(updatedData)
     this.setState({teamList: updatedData, isLoading: false})
   }
+
   render() {
     const {teamList, isLoading} = this.state
     return (
       <div>
         {isLoading ? (
-          <div testid="loader">
+          <div>
             <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
           </div>
         ) : (

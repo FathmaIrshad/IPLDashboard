@@ -9,6 +9,48 @@ ul {
   padding: 25px;
   color: #ffffff;
 }
-h1{
-  font-size:30px;
+h1 {
+  font-size: 30px;
+}
+.Chart-container {
+  height: 1000px; /* This is the most important line */
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: #ffffff;
+  color: #1e293b;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #f8fafc;
+  transform: scale(1.05);
+}
+.recharts-legend-wrapper ul {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  border: none !important;
+  background: none !important;
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+
+.recharts-legend-item {
+  display: flex !important;
+  align-items: center !important;
+  border: none !important;
+  background: none !important;
+  margin: 0 10px !important; /* Space between the legend items */
 }
